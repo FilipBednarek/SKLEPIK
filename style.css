@@ -1,0 +1,36 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 1rem;
+  border: 1px solid rgb(134, 132, 132);
+  background: rgb(248, 248, 248);
+  border-radius: 15px;
+}
+form * {
+  margin: 0.3rem;
+}
+
+#addGrade {
+  width: 30%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#display {
+  display: grid;
+  background-color: rgb(184, 202, 202);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <form action="#">
+        <label for="name"
+          >Imie:
+          <input type="text" name="name" id="name" value="Eustazy" />
+        </label>
+        <label for="class">
+          Klasa
+          <select name="class" id="classYear">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </label>
+
+        <label for="permition"
+          >Zgoda na przetwazanie danych osobowych:
+          <input type="checkbox" name="permission" id="permission" value="off" />
+        </label>
+        <label for="grades"
+          >Oceny:
+          <input type="text" name="grades" id="grades" />
+        </label>
+        <button id="addGrades">Dodaj ocene</button>
+      </form>
+      <ol id="display"></ol>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
